@@ -18,7 +18,7 @@ let clearBtn = document.querySelector(".clear-btn");
 // let Tools = ["React", "Sass", "Vue", "Django", " RoR"];
 fetchAndSort();
 function fetchAndSort() {
-  fetch("/data.json")
+  fetch("https://github.com/kawthermohamed/frontmentor-job-listings/blob/main/data.json")
     .then((solve) => {
       return solve.json();
       console.log(solve.json());
